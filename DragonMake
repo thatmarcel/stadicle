@@ -1,0 +1,16 @@
+---
+name: Stadicle
+icmd: sbreload
+
+all:
+    targetvers: 13.0
+    archs:
+        - arm64
+        - arm64e
+
+StadicleTweak:
+    type: tweak
+    logos_files:
+        - "*.xm"
+    objc_files:
+        - "*.m"

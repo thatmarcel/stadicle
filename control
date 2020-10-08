@@ -1,0 +1,9 @@
+Package: com.thatmarcel.tweaks.stadicle
+Name: Stadicle
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Use Stadia in Safari
+Maintainer: Marcel Braun
+Author: Marcel Braun
+Section: Tweaks

@@ -1,0 +1,4 @@
+packages/
+.dragon/
+.theos/
+**/.DS_STORE
