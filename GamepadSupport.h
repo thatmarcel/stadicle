@@ -1,8 +1,8 @@
-@import GameController;
+#import <Foundation/Foundation.h>
+#import "HIDEvent.h"
+#import <GameController/GameController.h>
 
 @interface GamepadSupport: NSObject
     + (NSString*) javascript;
-    + (NSString*) controllerJSON;
-
-    + (GCExtendedGamepad*) gamepad;
+    + (NSString*) controllerJSONForGamepad:(GCExtendedGamepad*)gamepad;
 @end
